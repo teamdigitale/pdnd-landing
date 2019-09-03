@@ -1,0 +1,18 @@
+{% assign current_lang = page.lang | default: site.lang | default: 'it' %}
+{% assign t = site.data.t[current_lang] %}
+
+<!DOCTYPE html>
+<html lang="{{ current_lang }}">
+
+  {%- include head.html -%}
+
+  <body class="overflow-x--hidden layout--{{page.layout}} is-scrolled">
+    {% comment %}
+    {%- include header.html -%}
+    {% endcomment %}
+
+    {{ content }}
+
+  </body>
+
+</html>

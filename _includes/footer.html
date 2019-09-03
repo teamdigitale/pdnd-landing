@@ -1,0 +1,42 @@
+<footer class="footer text-muted padding-umd">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-sm-12 col-md-8 col-lg-6">
+          <div class="d-flex">
+          <div class="px-2 team-logo--icon">
+            <a href="http://teamdigitale.governo.it/" target="_blank" rel="noopener">
+            <img src="{{ '/assets/img/logo-team-digitale.svg' | relative_url }}" alt="{{t.team}}"/>
+            </a>
+          </div>
+          <div class="px-2 border-white border-left team-logo--text text-white">{{t.team}}</div>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 col-lg-6">
+        <div class="text-right social">
+          <span>{{t.seguici}}</span>
+          <a href="https://github.com/italia/" class="small-prints px-1">
+            <svg class="icon"><use xlink:href="/assets/svg/sprite.svg#it-github"></use></svg>GitHub
+          </a>
+          <a href="https://twitter.com/teamdigitaleIT" class="small-prints px-1">
+            <svg class="icon"><use xlink:href="/assets/svg/sprite.svg#it-twitter"></use></svg>Twitter
+          </a>
+          <a href="https://www.linkedin.com/company/teamdigitale/" class="small-prints px-1">
+            <svg class="icon"><use xlink:href="/assets/svg/sprite.svg#it-linkedin"></use></svg>LinkedIn
+          </a>
+        </div>
+      </div>
+    </div><!--/row-->
+    <div class="row py-4 colophon">
+      <ul class="col list-inline small">
+        <li class="list-inline-item">
+          {% include internal-link.html target='privacy-policy' class='small-prints' string='Privacy Policy' %}
+        </li>
+        <li class="list-inline-item">
+            {% include internal-link.html target='note-legali' class='small-prints' string=t.note_legali %}
+        </li>
+      </ul>
+      <p class="small">{{t.footer_disclaimer}}</p>
+    </div>
+
+  </div>
+</footer>
