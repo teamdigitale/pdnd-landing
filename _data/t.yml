@@ -85,14 +85,14 @@ it:
       <p><b>Revoca</b> da remoto i permessi di accesso nel caso il <b>telefono</b> venga <sb>rubato o smarrito</sb>.</p>
     mockup: '/assets/img/mockups/it/mockup-06-profilo.png'
   home-section-7:
-    title: I servizi che potrai usare tramite IO
+    title: Lorem ipsum dolor sit amet cras amet
     par1:
-      'IO parte dai bisogni dei cittadini: lavoreremo con gli enti titolari di ciascun servizio per integrarlo nell’app.
-      <br/>Per stabilire le priorità abbiamo organizzato i servizi in base a quante persone effettivamente li potrebbero usare a quanto spesso entrano nella vita quotidiana di ciascuno di noi. I servizi che vedi su questo sito sono solo dei possibili esempi.'
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id ante ut velit semper pharetra. Aliquam sed.
+      <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius auctor dui, at facilisis massa elementum at. Nam eu lacus nisl. Ut in rhoncus purus, id vehicula orci. Mauris a eleifend nisl, eu laoreet nunc. Fusce ut scelerisque tellus amet.'
     par2:
-      'Per alcuni di essi abbiamo attivato una sperimentazione a livello locale o nazionale. Per quelli più complessi dovremo aspettare mesi o anni. Sicuramente altri li abbiamo dimenticati: se ti viene in mente un altro servizio che ti sembra interessante proponilo nell’<a href="https://forum.italia.it/t/che-cose-io-la-app-del-cittadino/2901" target="_blank" rel="noopener">apposita sezione del forum</a>.'
-    map_title: Mappa di utilizzo dei servizi pubblici
-    map_desc: Nelle colonne puoi vedere la <b>percentuale di popolazione coinvolta</b>, nelle righe la diversa <b>frequenza d'uso</b>.
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu nulla sed lacus gravida lobortis. Vestibulum nec massa ut lacus scelerisque commodo. In id ipsum non tellus commodo condimentum. Ut et augue nunc. Integer suscipit nunc ac egestas pretium. Ut id imperdiet nibh. Integer posuere.'
+    map_title: Lorem ipsum dolor sit amet cras amet
+    map_desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. <b>Curabitur id ante ut velit semper pharetra.</b> Aliquam sed.
     map_th:
       - Meno del 30%
       - Più del 30%
