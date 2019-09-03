@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{% assign current_lang = page.lang | default: site.lang | default: 'it' %}
+{% assign t = site.data.t[current_lang] %}
+
+{%- include preload.html -%}
+
+{%- include navigation-slim.html -%}
+
+{%- include navigation.html -%}
+
+{%- include home/section-7.html -%}
+
+{%- include footer.html -%}
+
+{%- include cookiebar.html -%}
+
+{%- include scripts.html -%}
