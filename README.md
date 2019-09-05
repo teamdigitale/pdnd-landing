@@ -8,7 +8,7 @@ PDND stays for "Piattaforma Digitale Nazionale Dati" (the Italian Digital Data P
 
 You can find more informations about the PDND on the official [Digital Transformation Team website](https://teamdigitale.governo.it/it/projects/daf.htm).
 
-### Tools references *(optional)*
+### Tools references
 
 This project references the following tools.
 
