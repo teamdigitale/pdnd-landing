@@ -86,31 +86,31 @@ it:
     mockup: '/assets/img/mockups/it/mockup-06-profilo.png'
   home-section-7:
     title: 
-      <h1>Piattaforma Digitale Nazionale - PDND ( ex DAF )<h1>
+      Piattaforma Digitale Nazionale - PDND ( ex DAF )
       <h2>Attività di migrazione su Cloud Azure e passaggio a PagoPA Spa
-    desc:
-      Dal <b>15 Settembre 2019</b> la Piattaforma Digitale Nazionale Dati e tutti i suoi servizi passano in gestione alla società PagoPA Spa.
     par1:
+      Dal <b>15 Settembre 2019</b> la Piattaforma Digitale Nazionale Dati e tutti i suoi servizi passano in gestione alla società PagoPA Spa.
+    par2:
       In concomitanza con il cambio organizzativo inizieranno le attività di migrazione della piattaforma da Cloud SPC a Cloud Azure, le quali coinvolgeranno tutti in essa contenuti servizi.
       Nella seguente tabella vengono elencati tutti i servizi programmati per la migrazione ; per quelli già attivi sarà riportato il link diretto al servizio, mentre per quelli non ancora migrati sarà riportata la data stimata di pubblicazione  
     map_title: Elenco Servizi PDND
     map_desc: Elenco dei servizi della Piattaforma Nazionale Digitale Dati coinvolti nella migrazione su Cloud Azure
     map_th:
-      - Nome Servizio
       - Stato
       - Link
       - Data programmata per la pubblicazione
     map_tr:
-      
-      - PDND UI ( ex DataPortal )
-      - In migrazione
-      - Non disponibile
-      - '' 
-       
-      - CKAN
-      - Disponibile
-      - ckan.prod.pdnd.italia.it
-      - N/A
+      -
+        - PDND UI ( ex DataPortal )
+        - In migrazione
+        - Non disponibile
+        - '' 
+
+      -
+        - CKAN
+        - Disponibile
+        - ckan.prod.pdnd.italia.it
+        - N/A
 
   home-section-8:
     title: è il progetto per lo sviluppo dell'applicazione del Governo italiano che permetterà a tutti i cittadini di usare servizi pubblici nazionali e locali dal proprio smartphone in maniera semplice, moderna e sicura.
