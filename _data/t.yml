@@ -85,85 +85,33 @@ it:
       <p><b>Revoca</b> da remoto i permessi di accesso nel caso il <b>telefono</b> venga <sb>rubato o smarrito</sb>.</p>
     mockup: '/assets/img/mockups/it/mockup-06-profilo.png'
   home-section-7:
-    title: Lorem ipsum dolor sit amet cras amet
+    title: 
+      <h1>Piattaforma Digitale Nazionale - PDND ( ex DAF )<h1>
+      <h2>Attività di migrazione su Cloud Azure e passaggio a PagoPA Spa
+    desc:
+      Dal <b>15 Settembre 2019</b> la Piattaforma Digitale Nazionale Dati e tutti i suoi servizi passano in gestione alla società PagoPA Spa.
     par1:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id ante ut velit semper pharetra. Aliquam sed.
-      <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius auctor dui, at facilisis massa elementum at. Nam eu lacus nisl. Ut in rhoncus purus, id vehicula orci. Mauris a eleifend nisl, eu laoreet nunc. Fusce ut scelerisque tellus amet.'
-    par2:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu nulla sed lacus gravida lobortis. Vestibulum nec massa ut lacus scelerisque commodo. In id ipsum non tellus commodo condimentum. Ut et augue nunc. Integer suscipit nunc ac egestas pretium. Ut id imperdiet nibh. Integer posuere.'
-    map_title: Lorem ipsum dolor sit amet cras amet
-    map_desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. <b>Curabitur id ante ut velit semper pharetra.</b> Aliquam sed.
+      In concomitanza con il cambio organizzativo inizieranno le attività di migrazione della piattaforma da Cloud SPC a Cloud Azure, le quali coinvolgeranno tutti in essa contenuti servizi.
+      Nella seguente tabella vengono elencati tutti i servizi programmati per la migrazione ; per quelli già attivi sarà riportato il link diretto al servizio, mentre per quelli non ancora migrati sarà riportata la data stimata di pubblicazione  
+    map_title: Elenco Servizi PDND
+    map_desc: Elenco dei servizi della Piattaforma Nazionale Digitale Dati coinvolti nella migrazione su Cloud Azure
     map_th:
-      - Meno del 30%
-      - Più del 30%
-      - Più del 60%
-      - Più del 90%
+      - Nome Servizio
+      - Stato
+      - Link
+      - Data programmata per la pubblicazione
     map_tr:
-      -
-        - Più volte al mese
-        - ''
-        - ''
-        -
-          - Cambiamenti di viabilità
-          - Allerte meteo
-        - ''
-      -
-        - Molte volte in un anno
-        - ''
-        -
-          - Tasse scolastiche
-          - Multe
-          - Colloqui e pagelle
-          - Bandi e gare
-        -
-          - Posizione contributiva
-          - Certificati malattia
-          - Pagamenti collaboratori domestici
-        -
-          - Ricette mediche
-          - Rimborsi acquisti medicinali
-      -
-        - Qualche volta in un anno
-        -
-          - Contributi previdenziali
-          - Stato bonus
-        -
-          - Tributi
-          - Iscrizioni a scuola
-          - Assenze scolastiche
-          - Permesso parcheggio
-          - Graduatoria asilo
-          - Attività imprese
-          - Storico pagamenti PA
-        -
-          - Scadenza bollo
-          - Punti patente
-          - Scadenza assicurazione
-          - Referti esami medici
-        -
-          - Spese mediche
-      -
-        - Qualche volta nella vita
-        -
-          - Cartelle esattoriali
-          - Atti giudiziari
-        -
-          - Cambio residenza
-          - Congedo parentale
-          - Scadenza passaporto
-          - Rimozione auto
-        -
-          - Preferenze pagamento
-          - Richiamo vaccini
-          - Stato proprietà immobiliari
-          - Scadenza patente
-        -
-          - Scadenza carta di identità
-          - Scadenza tessera elettorale
-          - Certificato di nascita
-          - Stato di famiglia
-          - Scelta medico di base
-          - Scadenza revisione auto
+      
+      - PDND UI ( ex DataPortal )
+      - In migrazione
+      - Non disponibile
+      - '' 
+       
+      - CKAN
+      - Disponibile
+      - ckan.prod.pdnd.italia.it
+      - N/A
+
   home-section-8:
     title: è il progetto per lo sviluppo dell'applicazione del Governo italiano che permetterà a tutti i cittadini di usare servizi pubblici nazionali e locali dal proprio smartphone in maniera semplice, moderna e sicura.
     desc: 'È un progetto <b>Open Source</b> che crescerà di giorno in giorno, coinvolgendo <b>enti e servizi diversi</b>. <br>Nel secondo trimestre del 2019 inizieranno i primi test con i cittadini: iscriviti alla newsletter per restare aggiornato.'
