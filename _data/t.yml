@@ -101,16 +101,24 @@ it:
       - Data programmata per la pubblicazione
     map_tr:
       -
-        - PDND UI ( ex DataPortal )
+        - PDND UI ( ex DAF DataPortal )
         - In migrazione
         - Non disponibile
         - '' 
 
       -
-        - CKAN
+        - CKAN / Open Data Portal
         - Disponibile
         - ckan.prod.pdnd.italia.it
         - N/A
+
+      -
+        - OntoPiA
+        - Disponibile
+        - ontopia.prod.pdnd.italia.it
+        - N/A
+
+
 
   home-section-8:
     title: è il progetto per lo sviluppo dell'applicazione del Governo italiano che permetterà a tutti i cittadini di usare servizi pubblici nazionali e locali dal proprio smartphone in maniera semplice, moderna e sicura.
