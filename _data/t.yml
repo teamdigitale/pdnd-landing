@@ -85,85 +85,114 @@ it:
       <p><b>Revoca</b> da remoto i permessi di accesso nel caso il <b>telefono</b> venga <sb>rubato o smarrito</sb>.</p>
     mockup: '/assets/img/mockups/it/mockup-06-profilo.png'
   home-section-7:
-    title: Lorem ipsum dolor sit amet cras amet
-    par1:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id ante ut velit semper pharetra. Aliquam sed.
-      <br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius auctor dui, at facilisis massa elementum at. Nam eu lacus nisl. Ut in rhoncus purus, id vehicula orci. Mauris a eleifend nisl, eu laoreet nunc. Fusce ut scelerisque tellus amet.'
-    par2:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu nulla sed lacus gravida lobortis. Vestibulum nec massa ut lacus scelerisque commodo. In id ipsum non tellus commodo condimentum. Ut et augue nunc. Integer suscipit nunc ac egestas pretium. Ut id imperdiet nibh. Integer posuere.'
-    map_title: Lorem ipsum dolor sit amet cras amet
-    map_desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. <b>Curabitur id ante ut velit semper pharetra.</b> Aliquam sed.
+    title: 
+      Piattaforma Digitale Nazionale Dati - PDND (ex DAF)
+      <h2>Attività di migrazione su Cloud Azure e passaggio a PagoPA Spa</h2>
+    parfull:
+      <hr>
+      Dal giorno <b>15 Settembre 2019</b> la Piattaforma Digitale Nazionale Dati e tutti i suoi servizi passano in gestione alla società PagoPA Spa.
+      <hr>
+      In concomitanza con il cambio organizzativo inizieranno le attività di migrazione della piattaforma da Cloud SPC a Cloud Azure, le quali coinvolgeranno tutti i servizi in essa contenuti.
+      Nella seguente tabella vengono elencati tutti i servizi programmati per la migrazione raggruppati per tipologia; per quelli già attivi è riportato il link diretto, mentre per quelli non ancora migrati sarà riportata la data stimata di pubblicazione  
+    map_title: Elenco Servizi PDND
+    map_desc: Elenco dei servizi della Piattaforma Nazionale Digitale Dati coinvolti nella migrazione su Cloud Azure
     map_th:
-      - Meno del 30%
-      - Più del 30%
-      - Più del 60%
-      - Più del 90%
+      - Descrizione
+      - Stato
+      - Link
+      - Data programmata per la pubblicazione
     map_tr:
       -
-        - Più volte al mese
+        - <i>Main Services</i>
+      -
+        - PDND UI
+        - Interfaccia Utente per la Piattaforma Digitale Nazionale Dati <br> ( ex DAF DataPortal )
+        - In corso di migrazione
         - ''
+        - 1 Gennaio 2020 
+      -
+        - PDND Analytics Framework
+        - Piattaforma di Big Data Analytics basata su DataBricks ( consentita sperimentazione per le sole PA con Protocollo di Intesa )
+        - In corso di configurazione
         - ''
+        - 23 Settembre 2019 
+      -
+        - CKAN
+        - Portale Open Data Italiani della PDND, compatibile DCAT-AP-IT
+        - Disponibile
+        - <a href="https://ckan.prod.pdnd.italia.it">https://ckan.prod.pdnd.italia.it</a>
+        - '-'
+      -
+        - <i>Semantic Services</i>
+      -
+        - OntoPiA-LodView 
+        - Navigazione vocabolari controllati e ontologie
+        - Disponibile 
+        - 
+          - <a href="https://ontopia-lodview.pdnd.italia.it/">https://ontopia-lodview.pdnd.italia.it/</a>
+          - Esempi :
+          - <a href="https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/classifications-for-documents/municipal-notice-board">https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/classifications-for-documents/municipal-notice-board </a>(vocabolario)
+          - <a href="https://ontopia-lodview.pdnd.italia.it/onto/COV">https://ontopia-lodview.pdnd.italia.it/onto/COV</a>(ontologia)
+        - '-'
+      -
+        - OntoPiA-Lode 
+        - Navigazione Ontologie
+        - Disponibile 
+        - 
+          - 'Esempio :'
+          - <a href="https://ontopia-lode.pdnd.italia.it/lode/extract?url=https://w3id.org/italia/onto/CLV">https://ontopia-lode.pdnd.italia.it/lode/extract?url=https://w3id.org/italia/onto/CLV</a>
+        - '-'
+      -
+        - OntoPiA-WebOWL 
+        - Navigazione a grafo delle sole ontologie
+        - Disponibile 
+        - 
+          - 'Esempio :'
+          - <a href="https://ontopia-lodview.pdnd.italia.it/webvowl/#iri=https://w3id.org/italia/onto/CLV">https://ontopia-lodview.pdnd.italia.it/webvowl/#iri=https://w3id.org/italia/onto/CLV</a>
+        - '-'
+      -
+        - OntoPiA-SPARQL 
+        - Interrogazione dei vocabolari, delle ontologie e di altri futuri dataset linked data generati dall'Analytics Framework
+        - Disponibile 
         -
-          - Cambiamenti di viabilità
-          - Allerte meteo
+          - <a href="https://ontopia-virtuoso.dev.pdnd.italia.it/">https://ontopia-virtuoso.dev.pdnd.italia.it/</a>
+          - <a href="https://ontopia-virtuoso.dev.pdnd.italia.it/sparql/">https://ontopia-virtuoso.dev.pdnd.italia.it/sparql/</a>
+        - '-'
+      -
+        - <i>Dashboard Services</i>
+      -
+        - Dashboard <i>PagoPA</i>
+        - Visualizzazione informazioni statistiche sull'utilizzo della piattaforma PagoPA
+        - Disponibile
+        - <a href="https://dashboard.pdnd.italia.it/public/dashboard/2c8ee2ee-fa84-4dbf-8b6a-e7fb5f9ca950">https://dashboard.pdnd.italia.it/public/dashboard/2c8ee2ee-fa84-4dbf-8b6a-e7fb5f9ca950</a>
         - ''
       -
-        - Molte volte in un anno
+        - Dashboard SPID
+        - Visualizzazione informazioni statistiche sull'utilizzo della piattaforma SPID
+        - Disponibile
+        - <a href="https://dashboard.pdnd.italia.it/public/dashboard/91369902-9c46-42e9-94c6-1a8b1c92d6c4">https://dashboard.pdnd.italia.it/public/dashboard/91369902-9c46-42e9-94c6-1a8b1c92d6c4</a>
         - ''
-        -
-          - Tasse scolastiche
-          - Multe
-          - Colloqui e pagelle
-          - Bandi e gare
-        -
-          - Posizione contributiva
-          - Certificati malattia
-          - Pagamenti collaboratori domestici
-        -
-          - Ricette mediche
-          - Rimborsi acquisti medicinali
       -
-        - Qualche volta in un anno
-        -
-          - Contributi previdenziali
-          - Stato bonus
-        -
-          - Tributi
-          - Iscrizioni a scuola
-          - Assenze scolastiche
-          - Permesso parcheggio
-          - Graduatoria asilo
-          - Attività imprese
-          - Storico pagamenti PA
-        -
-          - Scadenza bollo
-          - Punti patente
-          - Scadenza assicurazione
-          - Referti esami medici
-        -
-          - Spese mediche
+        - Dashboard CIE
+        - Visualizzazione informazioni statistiche sull'utilizzo della piattaforma PagoPA
+        - Disponibile
+        - <a href="https://dashboard.pdnd.italia.it/public/dashboard/e155f9b3-7624-4e62-8b29-25e9f7d6dad5">https://dashboard.pdnd.italia.it/public/dashboard/e155f9b3-7624-4e62-8b29-25e9f7d6dad5</a>
+        - ''
       -
-        - Qualche volta nella vita
-        -
-          - Cartelle esattoriali
-          - Atti giudiziari
-        -
-          - Cambio residenza
-          - Congedo parentale
-          - Scadenza passaporto
-          - Rimozione auto
-        -
-          - Preferenze pagamento
-          - Richiamo vaccini
-          - Stato proprietà immobiliari
-          - Scadenza patente
-        -
-          - Scadenza carta di identità
-          - Scadenza tessera elettorale
-          - Certificato di nascita
-          - Stato di famiglia
-          - Scelta medico di base
-          - Scadenza revisione auto
+        - <i>Client Libraries</i>
+      -
+        - PDND nteract
+        - Librerie client per la integrazione tra la piattaforma nteract notebooks ( Python ) e la PDND
+        - Disponibile
+        - <a href="https://github.com/teamdigitale/daf-nteract">https://github.com/teamdigitale/daf-nteract</a>
+        - ''
+      -
+        - PDND open notebooks
+        - Librerie client per la integrazione tra la piattaforma nteract notebooks ( Python, R, Giulia ) e la PDND
+        - Disponibile
+        - <a href="https://github.com/teamdigitale/pdnd-open-notebooks">https://github.com/teamdigitale/pdnd-open-notebooks</a>
+        - ''
+      
   home-section-8:
     title: è il progetto per lo sviluppo dell'applicazione del Governo italiano che permetterà a tutti i cittadini di usare servizi pubblici nazionali e locali dal proprio smartphone in maniera semplice, moderna e sicura.
     desc: 'È un progetto <b>Open Source</b> che crescerà di giorno in giorno, coinvolgendo <b>enti e servizi diversi</b>. <br>Nel secondo trimestre del 2019 inizieranno i primi test con i cittadini: iscriviti alla newsletter per restare aggiornato.'
@@ -264,85 +293,92 @@ en:
       <p><b>Revoke</b> access authorization remotely if the <b>phone</b> is <b>stolen</b> or <b>lost</b>.</p>
     mockup: '/assets/img/mockups/en/mockup-06-profile.png'
   home-section-7:
-    title: The services available through IO
-    par1:
-      'IO stems from citizens’ needs. We will work with the operators of each service for integration into the app.
-      <br>To set priorities, we organized the services on the basis of how many people could actually use them, and how often they impact upon daily lives. The services you see on this site are just a few examples.'
-    par2:
-      Trials at a local or national level have started for a selection of services. The more complex ones will be released in a few months or years. Undoubtedly, some possible services have been overlooked. If you think of another service that seems relevant, please make a suggestion  in the <a href="https://forum.italia.it/t/che-cose-io-la-app-del-cittadino/2901" target="_blank" rel="noopener">appropriate section of the forum</a>.
-    map_title: Public Service Utilization Map
-    map_desc: In the columns, you can see the percentage of the population involved, with the different <b>frequency of use</b> shown in the rows.
+    title: 
+      Piattaforma Digitale Nazionale - PDND ( ex DAF )
+      <h2>Attività di migrazione su Cloud Azure e passaggio a PagoPA Spa</h2>
+    parfull:
+      <hr>
+      Dal <b>15 Settembre 2019</b> la Piattaforma Digitale Nazionale Dati e tutti i suoi servizi passano in gestione alla società PagoPA Spa.
+      <hr>
+      In concomitanza con il cambio organizzativo inizieranno le attività di migrazione della piattaforma da Cloud SPC a Cloud Azure, le quali coinvolgeranno tutti in essa contenuti servizi.
+      Nella seguente tabella vengono elencati tutti i servizi programmati per la migrazione ; per quelli già attivi sarà riportato il link diretto al servizio, mentre per quelli non ancora migrati sarà riportata la data stimata di pubblicazione  
+    map_title: Elenco Servizi PDND
+    map_desc: Elenco dei servizi della Piattaforma Nazionale Digitale Dati coinvolti nella migrazione su Cloud Azure
     map_th:
-      - Less than 30%
-      - More than 30%
-      - More than 60%
-      - More than 90%
+      - Descrizione
+      - Stato
+      - Link
+      - Data programmata per la pubblicazione
     map_tr:
       -
-        - SEVERAL TIMES A MONTH
+        - PDND UI
+        - Interfaccia Utente per la Piattaforma Digitale Nazionale Dati <br> ( ex DAF DataPortal )
+        - In corso di migrazione
         - ''
+        - 1 Gennaio 2020 
+      -
+        - PDND Analytics Framework
+        - Piattaforma di Big Data Analytics basata su DataBricks ( consentita sperimentazione per le sole PA con Protocollo di Intesa )
+        - In corso di configurazione
         - ''
+        - 23 Settembre 2019 
+      -
+        - CKAN
+        - Portale Open Data Italiani della PDND, compatibile DCAT-AP-IT
+        - Disponibile
+        - <a href="https://ckan.prod.pdnd.italia.it">https://ckan.prod.pdnd.italia.it</a>
+        - '-'
+      -
+        - OntoPiA-LodView 
+        - Navigazione vocabolari controllati e ontologie
+        - Disponibile 
+        - 
+          - <a href="https://ontopia-lodview.pdnd.italia.it/">https://ontopia-lodview.pdnd.italia.it/</a>
+          - <a href="https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/classifications-for-documents/municipal-notice-board">https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/classifications-for-documents/municipal-notice-board  (vocabolario)</a>
+          - <a href="https://ontopia-lodview.pdnd.italia.it/onto/COV">https://ontopia-lodview.pdnd.italia.it/onto/COV (ontologia)</a>
+        - '-'
+      -
+        - OntoPiA-Lode 
+        - Navigazione Ontologie
+        - Disponibile 
+        - 
+          - 'Esempio :'
+          - <a href="https://ontopia-lode.pdnd.italia.it/lode/extract?url=https://w3id.org/italia/onto/CLV">https://ontopia-lode.pdnd.italia.it/lode/extract?url=https://w3id.org/italia/onto/CLV</a>
+        - '-'
+      -
+        - OntoPiA-WebOWL 
+        - Navigazione a grafo delle sole ontologie
+        - Disponibile 
+        - 
+          - 'Esempio :'
+          - <a href="https://ontopia-lodview.pdnd.italia.it/webvowl/#iri=https://w3id.org/italia/onto/CLV">https://ontopia-lodview.pdnd.italia.it/webvowl/#iri=https://w3id.org/italia/onto/CLV</a>
+        - '-'
+      -
+        - OntoPiA-SPARQL 
+        - Interrogazione dei vocabolari, delle ontologie e di altri futuri dataset linked data generati dall'Analytics Framework
+        - Disponibile 
         -
-          - Road access changes
-          - Weather alerts
+          - <a href="https://ontopia-virtuoso.dev.pdnd.italia.it/">https://ontopia-virtuoso.dev.pdnd.italia.it/</a>
+          - <a href="https://ontopia-virtuoso.dev.pdnd.italia.it/sparql/">https://ontopia-virtuoso.dev.pdnd.italia.it/sparql/</a>
+        - '-'
+      -
+        - Dashboard <i>PagoPA</i>
+        - Visualizzazione informazioni statistiche sull'utilizzo della piattaforma PagoPA
+        - Disponibile
+        - <a href="https://dashboard.pdnd.italia.it/public/dashboard/2c8ee2ee-fa84-4dbf-8b6a-e7fb5f9ca950">https://dashboard.pdnd.italia.it/public/dashboard/2c8ee2ee-fa84-4dbf-8b6a-e7fb5f9ca950</a>
         - ''
       -
-        - MANY TIMES A YEAR
+        - Dashboard SPID
+        - Visualizzazione informazioni statistiche sull'utilizzo della piattaforma SPID
+        - Disponibile
+        - <a href="https://dashboard.pdnd.italia.it/public/dashboard/91369902-9c46-42e9-94c6-1a8b1c92d6c4">https://dashboard.pdnd.italia.it/public/dashboard/91369902-9c46-42e9-94c6-1a8b1c92d6c4</a>
         - ''
-        -
-          - Tuition fees
-          - Fines
-          - Meetings and report cards
-          - Competitions and tenders
-        -
-          - Tax status
-          - Medical certificates
-          - Payments for domestic workers
-        -
-          - Medical receipts
-          - Refunds for drug purchases
       -
-        - A FEW TIMES A YEAR
-        -
-          - Social security contribution
-          - Bonus status
-        -
-          - Taxes
-          - School enrolment
-          - School absences
-          - Parking permit
-          - Asylum status
-          - Business activities
-          - PA payment history
-        -
-          - Stamp duty tax deadline
-          - Driving licence points
-          - Insurance expiration date
-          - Medical examination reports
-        -
-          - Medical expenses
-      -
-        - EVERY NOW AND THEN
-        -
-          - Tax collection portfolio
-          - Judicial documents
-        -
-          - Changing residence
-          - Parental leave
-          - Passport expiration date
-          - Car towing
-        -
-          - Payment preferences
-          - Vaccine reminders
-          - Real estate status
-          - Driving licence expiration date
-        -
-          - Identity card expiration date
-          - Electoral card expiration date
-          - Birth certificate
-          - Family status
-          - Choice of General Practitioner
-          - Vehicle service deadline
+        - Dashboard CIE
+        - Visualizzazione informazioni statistiche sull'utilizzo della piattaforma PagoPA
+        - Disponibile
+        - <a href="https://dashboard.pdnd.italia.it/public/dashboard/e155f9b3-7624-4e62-8b29-25e9f7d6dad5">https://dashboard.pdnd.italia.it/public/dashboard/e155f9b3-7624-4e62-8b29-25e9f7d6dad5</a>
+        - ''
   home-section-8:
     title: is focused on the development of the Italian Government's application that will allow all citizens to use national and local public services from their smartphone in a simple, modern and secure way.
     desc: It is an <b>Open Source</b> project set to grow day-by-day, involving <b>different entities and services</b>. <br>In the second quarter of 2019, the first tests with citizens will begin - sign up for the newsletter to stay up-to-date.
