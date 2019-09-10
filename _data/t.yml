@@ -92,8 +92,7 @@ it:
       <hr>
       Dal giorno <b>15 Settembre 2019</b> la Piattaforma Digitale Nazionale Dati e tutti i suoi servizi passano in gestione alla società PagoPA Spa.
       <hr>
-      In concomitanza con il cambio organizzativo inizieranno le attività di migrazione della piattaforma da Cloud SPC a Cloud Azure, le quali coinvolgeranno tutti i servizi in essa contenuti.
-      Nella seguente tabella vengono elencati tutti i servizi programmati per la migrazione raggruppati per tipologia; per quelli già attivi è riportato il link diretto, mentre per quelli non ancora migrati sarà riportata la data stimata di pubblicazione  
+    E' in corso la migrazione della piattaforma da Cloud SPC a Cloud Azure. Nella tabella vengono elencati tutti i servizi programmati  raggruppati per tipologia: per quelli già attivi è indicato il link diretto, per quelli non ancora migrati è riportata la data stimata di pubblicazione
     map_title: Elenco Servizi PDND
     map_desc: Elenco dei servizi della Piattaforma Nazionale Digitale Dati coinvolti nella migrazione su Cloud Azure
     map_th:
