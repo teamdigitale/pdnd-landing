@@ -1,3 +1,16 @@
 ---
 
-# This file is mandatory if your're building a new container - please remove instead it if it's not needed
+version: '3.2'
+services:
+
+  # IO onboarding PA frontend
+  pdnd-landing:
+    container_name: pdnd-landing
+    image: teamdigitale/pdnd-landing
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    stdin_open: true
+    tty: true
