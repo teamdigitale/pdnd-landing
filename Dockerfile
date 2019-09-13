@@ -1,7 +1,7 @@
 FROM jekyll/jekyll:3.8.6 as builder
 
 COPY . .
-
+RUN bundle install
 RUN jekyll build -d /srv/jekyll/_site
 
 FROM nginx:1.16.1
