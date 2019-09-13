@@ -2,7 +2,7 @@ FROM jekyll/jekyll:3.8.6 as builder
 
 COPY . .
 
-RUN jekyll build
+RUN jekyll build -d /srv/jekyll/_site
 
 FROM nginx:1.16.1
 LABEL maintainer="https://teamdigitale.governo.it"
