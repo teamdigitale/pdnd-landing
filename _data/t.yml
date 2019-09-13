@@ -45,7 +45,7 @@ it:
         - CKAN
         - Portale Open Data Italiani della PDND, compatibile DCAT-AP-IT
         - Disponibile
-        - <a href="https://ckan.prod.pdnd.italia.it">https://ckan.prod.pdnd.italia.it</a>
+        - <a href="https://ckan.pdnd.italia.it">https://ckan.pdnd.italia.it</a>
         - '-'
       -
         - <i>Semantic Services</i>
@@ -169,7 +169,7 @@ en:
         - CKAN
         - Portale Open Data Italiani della PDND, compatibile DCAT-AP-IT
         - Disponibile
-        - <a href="https://ckan.prod.pdnd.italia.it">https://ckan.prod.pdnd.italia.it</a>
+        - <a href="https://ckan.pdnd.italia.it">https://ckan.pdnd.italia.it</a>
         - '-'
       -
         - OntoPiA-LodView 
