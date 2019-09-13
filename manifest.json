@@ -1,6 +1,6 @@
 {
-	"name": "io, il progetto per sviluppare l'app dei servizi pubblici",
-    "short_name": "io app",
+	"name": "pdnd, piattaforma nazionale digitale dati",
+    "short_name": "pdnd landing",
 	"icons": [
 		{
 			"src": "\/android-chrome-192x192.png",

@@ -3,7 +3,6 @@
 version: '3.2'
 services:
 
-  # IO onboarding PA frontend
   pdnd-landing:
     container_name: pdnd-landing
     image: teamdigitale/pdnd-landing
