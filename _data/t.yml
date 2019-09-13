@@ -13,12 +13,14 @@ it:
   home-section-7:
     title: 
       Piattaforma Digitale Nazionale Dati - PDND (ex DAF)
-      <h2>Attività di migrazione su Cloud Azure e passaggio a PagoPA Spa</h2>
+      <h2>Attività di migrazione su Cloud Azure</h2>
     parfull:
       <hr>
-      Dal giorno <b>15 Settembre 2019</b> la Piattaforma Digitale Nazionale Dati e tutti i suoi servizi passano in gestione alla società PagoPA Spa.
+      Dal giorno <b>15 Settembre 2019</b> inizia l'attività di migrazione della Piattaforma Digitale Nazionale Dati e tutti i suoi servizi 
+      della piattaforma da Cloud SPC a Cloud Azure. Nella tabella vengono elencati tutti i servizi programmati raggruppati per tipologia, per quelli già attivi è indicato il link diretto, per quelli non ancora migrati è riportata la data stimata di pubblicazione
       <hr>
-      È in corso la migrazione della piattaforma da Cloud SPC a Cloud Azure. Nella tabella vengono elencati tutti i servizi programmati raggruppati per tipologia, per quelli già attivi è indicato il link diretto, per quelli non ancora migrati è riportata la data stimata di pubblicazione
+      Si ricorda che la PDND è ancora in fase di sperimentazione, si prega di scrivere a pdnd@teamdigitale.governo.it per qualsiasi informazione
+      <hr>
     map_title: Elenco Servizi PDND
     map_desc: Elenco dei servizi della Piattaforma Nazionale Digitale Dati coinvolti nella migrazione su Cloud Azure
     map_th:
@@ -45,7 +47,7 @@ it:
         - CKAN
         - Portale Open Data Italiani della PDND, compatibile DCAT-AP-IT
         - Disponibile
-        - <a href="https://ckan.prod.pdnd.italia.it">https://ckan.prod.pdnd.italia.it</a>
+        - <a href="https://ckan.pdnd.italia.it">https://ckan.pdnd.italia.it</a>
         - '-'
       -
         - <i>Semantic Services</i>
@@ -169,7 +171,7 @@ en:
         - CKAN
         - Portale Open Data Italiani della PDND, compatibile DCAT-AP-IT
         - Disponibile
-        - <a href="https://ckan.prod.pdnd.italia.it">https://ckan.prod.pdnd.italia.it</a>
+        - <a href="https://ckan.pdnd.italia.it">https://ckan.pdnd.italia.it</a>
         - '-'
       -
         - OntoPiA-LodView 
