@@ -139,14 +139,15 @@ en:
   cookies_disclaimer_accept: I accept
   home-section-7:
     title: 
-      Piattaforma Digitale Nazionale - PDND ( ex DAF )
-      <h2>Attività di migrazione su Cloud Azure e passaggio a PagoPA Spa</h2>
+      Piattaforma Digitale Nazionale Dati - PDND (ex DAF)
+      <h2>Attività di migrazione su Cloud Azure</h2>
     parfull:
       <hr>
-      Dal <b>15 Settembre 2019</b> la Piattaforma Digitale Nazionale Dati e tutti i suoi servizi passano in gestione alla società PagoPA Spa.
+      Dal giorno <b>15 Settembre 2019</b> inizia l'attività di migrazione della Piattaforma Digitale Nazionale Dati e tutti i suoi servizi 
+      della piattaforma da Cloud SPC a Cloud Azure. Nella tabella vengono elencati tutti i servizi programmati raggruppati per tipologia, per quelli già attivi è indicato il link diretto, per quelli non ancora migrati è riportata la data stimata di pubblicazione
       <hr>
-      In concomitanza con il cambio organizzativo inizieranno le attività di migrazione della piattaforma da Cloud SPC a Cloud Azure, le quali coinvolgeranno tutti in essa contenuti servizi.
-      Nella seguente tabella vengono elencati tutti i servizi programmati per la migrazione ; per quelli già attivi sarà riportato il link diretto al servizio, mentre per quelli non ancora migrati sarà riportata la data stimata di pubblicazione  
+      Si ricorda che la PDND è ancora in fase di sperimentazione, si prega di scrivere a pdnd@teamdigitale.governo.it per qualsiasi informazione
+      <hr>
     map_title: Elenco Servizi PDND
     map_desc: Elenco dei servizi della Piattaforma Nazionale Digitale Dati coinvolti nella migrazione su Cloud Azure
     map_th:
@@ -155,6 +156,8 @@ en:
       - Link
       - Data programmata per la pubblicazione
     map_tr:
+      -
+        - <i>Main Services</i>
       -
         - PDND UI
         - Interfaccia Utente per la Piattaforma Digitale Nazionale Dati <br> ( ex DAF DataPortal )
@@ -174,13 +177,16 @@ en:
         - <a href="https://ckan.pdnd.italia.it">https://ckan.pdnd.italia.it</a>
         - '-'
       -
+        - <i>Semantic Services</i>
+      -
         - OntoPiA-LodView 
         - Navigazione vocabolari controllati e ontologie
         - Disponibile 
         - 
           - <a href="https://ontopia-lodview.pdnd.italia.it/">https://ontopia-lodview.pdnd.italia.it/</a>
-          - <a href="https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/classifications-for-documents/municipal-notice-board">https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/classifications-for-documents/municipal-notice-board  (vocabolario)</a>
-          - <a href="https://ontopia-lodview.pdnd.italia.it/onto/COV">https://ontopia-lodview.pdnd.italia.it/onto/COV (ontologia)</a>
+          - 'Esempi:'
+          - <a href="https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/classifications-for-documents/municipal-notice-board">https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/classifications-for-documents/municipal-notice-board </a> (vocabolario)
+          - <a href="https://ontopia-lodview.pdnd.italia.it/onto/COV">https://ontopia-lodview.pdnd.italia.it/onto/COV</a> (ontologia)
         - '-'
       -
         - OntoPiA-Lode 
@@ -207,6 +213,8 @@ en:
           - <a href="https://ontopia-virtuoso.dev.pdnd.italia.it/sparql/">https://ontopia-virtuoso.dev.pdnd.italia.it/sparql/</a>
         - '-'
       -
+        - <i>Dashboard Services</i>
+      -
         - Dashboard <i>PagoPA</i>
         - Visualizzazione informazioni statistiche sull'utilizzo della piattaforma PagoPA
         - Disponibile
@@ -223,4 +231,24 @@ en:
         - Visualizzazione informazioni statistiche sull'utilizzo della piattaforma PagoPA
         - Disponibile
         - <a href="https://dashboard.pdnd.italia.it/public/dashboard/e155f9b3-7624-4e62-8b29-25e9f7d6dad5">https://dashboard.pdnd.italia.it/public/dashboard/e155f9b3-7624-4e62-8b29-25e9f7d6dad5</a>
+        - ''
+      -
+        - Dashboard ANPR
+        - Visualizzazione dello stato di migrazione dei comuni su ANPR
+        - Disponibile
+        - <a href="https://stato-migrazione.anpr.it/">https://stato-migrazione.anpr.it/</a>
+        - ''
+      -
+        - <i>Client Libraries</i>
+      -
+        - PDND nteract
+        - Librerie client per la integrazione tra la piattaforma nteract notebooks ( Python ) e la PDND
+        - Disponibile
+        - <a href="https://github.com/teamdigitale/daf-nteract">https://github.com/teamdigitale/daf-nteract</a>
+        - ''
+      -
+        - PDND open notebooks
+        - Librerie client per la integrazione tra la piattaforma nteract notebooks ( Python, R, Giulia ) e la PDND
+        - Disponibile
+        - <a href="https://github.com/teamdigitale/pdnd-open-notebooks">https://github.com/teamdigitale/pdnd-open-notebooks</a>
         - ''
