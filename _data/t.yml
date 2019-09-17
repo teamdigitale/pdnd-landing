@@ -13,118 +13,13 @@ it:
   home-section-7:
     title: 
       Piattaforma Digitale Nazionale Dati - PDND (ex DAF)
-      <h2>Attività di migrazione su Cloud Azure</h2>
+      <h2>Attività di migrazione in corso - Servizi temporaneamente non disponibili</h2>
     parfull:
       <hr>
-      Dal giorno <b>15 Settembre 2019</b> inizia l'attività di migrazione della Piattaforma Digitale Nazionale Dati e tutti i suoi servizi 
-      della piattaforma da Cloud SPC a Cloud Azure. Nella tabella vengono elencati tutti i servizi programmati raggruppati per tipologia, per quelli già attivi è indicato il link diretto, per quelli non ancora migrati è riportata la data stimata di pubblicazione
-      <hr>
-      Si ricorda che la PDND è ancora in fase di sperimentazione, si prega di scrivere a pdnd@teamdigitale.governo.it per qualsiasi informazione
-      <hr>
-    map_title: Elenco Servizi PDND
-    map_desc: Elenco dei servizi della Piattaforma Nazionale Digitale Dati coinvolti nella migrazione su Cloud Azure
+    map_title: 
+    map_desc: 
     map_th:
-      - Descrizione
-      - Stato
-      - Link
-      - Data programmata per la pubblicazione
     map_tr:
-      -
-        - <i>Main Services</i>
-      -
-        - PDND UI
-        - Interfaccia Utente per la Piattaforma Digitale Nazionale Dati <br> ( ex DAF DataPortal )
-        - In corso di migrazione
-        - ''
-        - 1 Gennaio 2020 
-      -
-        - PDND Analytics Framework
-        - Piattaforma di Big Data Analytics basata su DataBricks ( consentita sperimentazione per le sole PA con Protocollo di Intesa )
-        - In corso di configurazione
-        - ''
-        - 23 Settembre 2019 
-      -
-        - CKAN
-        - Portale Open Data Italiani della PDND, compatibile DCAT-AP-IT
-        - Disponibile
-        - <a href="https://ckan.pdnd.italia.it">https://ckan.pdnd.italia.it</a>
-        - '-'
-      -
-        - <i>Semantic Services</i>
-      -
-        - OntoPiA-LodView 
-        - Navigazione vocabolari controllati e ontologie
-        - Disponibile 
-        - 
-          - <a href="https://ontopia-lodview.pdnd.italia.it/">https://ontopia-lodview.pdnd.italia.it/</a>
-          - 'Esempi:'
-          - <a href="https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/classifications-for-documents/municipal-notice-board">https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/classifications-for-documents/municipal-notice-board </a> (vocabolario)
-          - <a href="https://ontopia-lodview.pdnd.italia.it/onto/COV">https://ontopia-lodview.pdnd.italia.it/onto/COV</a> (ontologia)
-        - '-'
-      -
-        - OntoPiA-Lode 
-        - Navigazione Ontologie
-        - Disponibile 
-        - 
-          - 'Esempio :'
-          - <a href="https://ontopia-lode.pdnd.italia.it/lode/extract?url=https://w3id.org/italia/onto/CLV">https://ontopia-lode.pdnd.italia.it/lode/extract?url=https://w3id.org/italia/onto/CLV</a>
-        - '-'
-      -
-        - OntoPiA-WebOWL 
-        - Navigazione a grafo delle sole ontologie
-        - Disponibile 
-        - 
-          - 'Esempio :'
-          - <a href="https://ontopia-lodview.pdnd.italia.it/webvowl/#iri=https://w3id.org/italia/onto/CLV">https://ontopia-lodview.pdnd.italia.it/webvowl/#iri=https://w3id.org/italia/onto/CLV</a>
-        - '-'
-      -
-        - OntoPiA-SPARQL 
-        - Interrogazione dei vocabolari, delle ontologie e di altri futuri dataset linked data generati dall'Analytics Framework
-        - Disponibile 
-        -
-          - <a href="https://ontopia-virtuoso.dev.pdnd.italia.it/">https://ontopia-virtuoso.dev.pdnd.italia.it/</a>
-          - <a href="https://ontopia-virtuoso.dev.pdnd.italia.it/sparql/">https://ontopia-virtuoso.dev.pdnd.italia.it/sparql/</a>
-        - '-'
-      -
-        - <i>Dashboard Services</i>
-      -
-        - Dashboard <i>PagoPA</i>
-        - Visualizzazione informazioni statistiche sull'utilizzo della piattaforma PagoPA
-        - Disponibile
-        - <a href="https://dashboard.pdnd.italia.it/public/dashboard/2c8ee2ee-fa84-4dbf-8b6a-e7fb5f9ca950">https://dashboard.pdnd.italia.it/public/dashboard/2c8ee2ee-fa84-4dbf-8b6a-e7fb5f9ca950</a>
-        - ''
-      -
-        - Dashboard SPID
-        - Visualizzazione informazioni statistiche sull'utilizzo della piattaforma SPID
-        - Disponibile
-        - <a href="https://dashboard.pdnd.italia.it/public/dashboard/91369902-9c46-42e9-94c6-1a8b1c92d6c4">https://dashboard.pdnd.italia.it/public/dashboard/91369902-9c46-42e9-94c6-1a8b1c92d6c4</a>
-        - ''
-      -
-        - Dashboard CIE
-        - Visualizzazione informazioni statistiche sull'utilizzo della piattaforma PagoPA
-        - Disponibile
-        - <a href="https://dashboard.pdnd.italia.it/public/dashboard/e155f9b3-7624-4e62-8b29-25e9f7d6dad5">https://dashboard.pdnd.italia.it/public/dashboard/e155f9b3-7624-4e62-8b29-25e9f7d6dad5</a>
-        - ''
-      -
-        - Dashboard ANPR
-        - Visualizzazione dello stato di migrazione dei comuni su ANPR
-        - Disponibile
-        - <a href="https://stato-migrazione.anpr.it/">https://stato-migrazione.anpr.it/</a>
-        - ''
-      -
-        - <i>Client Libraries</i>
-      -
-        - PDND nteract
-        - Librerie client per la integrazione tra la piattaforma nteract notebooks ( Python ) e la PDND
-        - Disponibile
-        - <a href="https://github.com/teamdigitale/daf-nteract">https://github.com/teamdigitale/daf-nteract</a>
-        - ''
-      -
-        - PDND open notebooks
-        - Librerie client per la integrazione tra la piattaforma nteract notebooks ( Python, R, Giulia ) e la PDND
-        - Disponibile
-        - <a href="https://github.com/teamdigitale/pdnd-open-notebooks">https://github.com/teamdigitale/pdnd-open-notebooks</a>
-        - ''
 
 en:
   team: Digital Transformation Team
@@ -140,115 +35,10 @@ en:
   home-section-7:
     title: 
       Piattaforma Digitale Nazionale Dati - PDND (ex DAF)
-      <h2>Attività di migrazione su Cloud Azure</h2>
+      <h2>Attività di migrazione in corso - Servizi temporaneamente non disponibili</h2>
     parfull:
       <hr>
-      Dal giorno <b>15 Settembre 2019</b> inizia l'attività di migrazione della Piattaforma Digitale Nazionale Dati e tutti i suoi servizi 
-      della piattaforma da Cloud SPC a Cloud Azure. Nella tabella vengono elencati tutti i servizi programmati raggruppati per tipologia, per quelli già attivi è indicato il link diretto, per quelli non ancora migrati è riportata la data stimata di pubblicazione
-      <hr>
-      Si ricorda che la PDND è ancora in fase di sperimentazione, si prega di scrivere a pdnd@teamdigitale.governo.it per qualsiasi informazione
-      <hr>
-    map_title: Elenco Servizi PDND
-    map_desc: Elenco dei servizi della Piattaforma Nazionale Digitale Dati coinvolti nella migrazione su Cloud Azure
+    map_title: 
+    map_desc: 
     map_th:
-      - Descrizione
-      - Stato
-      - Link
-      - Data programmata per la pubblicazione
     map_tr:
-      -
-        - <i>Main Services</i>
-      -
-        - PDND UI
-        - Interfaccia Utente per la Piattaforma Digitale Nazionale Dati <br> ( ex DAF DataPortal )
-        - In corso di migrazione
-        - ''
-        - 1 Gennaio 2020 
-      -
-        - PDND Analytics Framework
-        - Piattaforma di Big Data Analytics basata su DataBricks ( consentita sperimentazione per le sole PA con Protocollo di Intesa )
-        - In corso di configurazione
-        - ''
-        - 23 Settembre 2019 
-      -
-        - CKAN
-        - Portale Open Data Italiani della PDND, compatibile DCAT-AP-IT
-        - Disponibile
-        - <a href="https://ckan.pdnd.italia.it">https://ckan.pdnd.italia.it</a>
-        - '-'
-      -
-        - <i>Semantic Services</i>
-      -
-        - OntoPiA-LodView 
-        - Navigazione vocabolari controllati e ontologie
-        - Disponibile 
-        - 
-          - <a href="https://ontopia-lodview.pdnd.italia.it/">https://ontopia-lodview.pdnd.italia.it/</a>
-          - 'Esempi:'
-          - <a href="https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/classifications-for-documents/municipal-notice-board">https://ontopia-lodview.pdnd.italia.it/controlled-vocabulary/classifications-for-documents/municipal-notice-board </a> (vocabolario)
-          - <a href="https://ontopia-lodview.pdnd.italia.it/onto/COV">https://ontopia-lodview.pdnd.italia.it/onto/COV</a> (ontologia)
-        - '-'
-      -
-        - OntoPiA-Lode 
-        - Navigazione Ontologie
-        - Disponibile 
-        - 
-          - 'Esempio :'
-          - <a href="https://ontopia-lode.pdnd.italia.it/lode/extract?url=https://w3id.org/italia/onto/CLV">https://ontopia-lode.pdnd.italia.it/lode/extract?url=https://w3id.org/italia/onto/CLV</a>
-        - '-'
-      -
-        - OntoPiA-WebOWL 
-        - Navigazione a grafo delle sole ontologie
-        - Disponibile 
-        - 
-          - 'Esempio :'
-          - <a href="https://ontopia-lodview.pdnd.italia.it/webvowl/#iri=https://w3id.org/italia/onto/CLV">https://ontopia-lodview.pdnd.italia.it/webvowl/#iri=https://w3id.org/italia/onto/CLV</a>
-        - '-'
-      -
-        - OntoPiA-SPARQL 
-        - Interrogazione dei vocabolari, delle ontologie e di altri futuri dataset linked data generati dall'Analytics Framework
-        - Disponibile 
-        -
-          - <a href="https://ontopia-virtuoso.dev.pdnd.italia.it/">https://ontopia-virtuoso.dev.pdnd.italia.it/</a>
-          - <a href="https://ontopia-virtuoso.dev.pdnd.italia.it/sparql/">https://ontopia-virtuoso.dev.pdnd.italia.it/sparql/</a>
-        - '-'
-      -
-        - <i>Dashboard Services</i>
-      -
-        - Dashboard <i>PagoPA</i>
-        - Visualizzazione informazioni statistiche sull'utilizzo della piattaforma PagoPA
-        - Disponibile
-        - <a href="https://dashboard.pdnd.italia.it/public/dashboard/2c8ee2ee-fa84-4dbf-8b6a-e7fb5f9ca950">https://dashboard.pdnd.italia.it/public/dashboard/2c8ee2ee-fa84-4dbf-8b6a-e7fb5f9ca950</a>
-        - ''
-      -
-        - Dashboard SPID
-        - Visualizzazione informazioni statistiche sull'utilizzo della piattaforma SPID
-        - Disponibile
-        - <a href="https://dashboard.pdnd.italia.it/public/dashboard/91369902-9c46-42e9-94c6-1a8b1c92d6c4">https://dashboard.pdnd.italia.it/public/dashboard/91369902-9c46-42e9-94c6-1a8b1c92d6c4</a>
-        - ''
-      -
-        - Dashboard CIE
-        - Visualizzazione informazioni statistiche sull'utilizzo della piattaforma PagoPA
-        - Disponibile
-        - <a href="https://dashboard.pdnd.italia.it/public/dashboard/e155f9b3-7624-4e62-8b29-25e9f7d6dad5">https://dashboard.pdnd.italia.it/public/dashboard/e155f9b3-7624-4e62-8b29-25e9f7d6dad5</a>
-        - ''
-      -
-        - Dashboard ANPR
-        - Visualizzazione dello stato di migrazione dei comuni su ANPR
-        - Disponibile
-        - <a href="https://stato-migrazione.anpr.it/">https://stato-migrazione.anpr.it/</a>
-        - ''
-      -
-        - <i>Client Libraries</i>
-      -
-        - PDND nteract
-        - Librerie client per la integrazione tra la piattaforma nteract notebooks ( Python ) e la PDND
-        - Disponibile
-        - <a href="https://github.com/teamdigitale/daf-nteract">https://github.com/teamdigitale/daf-nteract</a>
-        - ''
-      -
-        - PDND open notebooks
-        - Librerie client per la integrazione tra la piattaforma nteract notebooks ( Python, R, Giulia ) e la PDND
-        - Disponibile
-        - <a href="https://github.com/teamdigitale/pdnd-open-notebooks">https://github.com/teamdigitale/pdnd-open-notebooks</a>
-        - ''
